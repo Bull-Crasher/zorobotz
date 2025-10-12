@@ -5,7 +5,7 @@
 - ganti semua isi config.py sama punya lu kalo udah lanjut dibawah
 - clone repo :
 ```
-git clone https://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@github.com/jerzzoffc/zorobotz && cd zorobotz
+git clone https://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@github.com/jerzzoffc/zorobotz && cd zorobotz
 ```
 - Setup Vps (Jalankan hanya sekali) :
 ```
