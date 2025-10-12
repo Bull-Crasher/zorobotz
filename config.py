@@ -34,17 +34,17 @@ id_button = {}
 CMD_HELP = {}
 
 
-DEVS = [5907975087]
+DEVS = [5408726356]
 
-devs_boong = list(map(int, getenv("devs_boong", "5907975087").split()))
+devs_boong = list(map(int, getenv("devs_boong", "5408726356").split()))
 api_id = int(getenv("api_id", "23908438"))
 api_hash = getenv("api_hash", "16cc5b553e3ad993343ac153eb1e8925")
-bot_token = getenv("bot_token", "7679800629:AAF_LwYmcg3SyveM0qhE65J8Zy99J1N8c4E")
-bot_id = int(getenv("bot_id", "7679800629"))
+bot_token = getenv("bot_token", "8472217527:AAHPn7p-Aziw2G89iCHwls4NzQVZb8cgGjk")
+bot_id = int(getenv("bot_id", "8472217527"))
 db_name = getenv("db_name", "JDatabase")
 log_pic = getenv("log_pic", "https://files.catbox.moe/6ycy32.jpg")
 def_bahasa = getenv("def_bahasa", "id")
-owner_id = int(getenv("owner_id", "5907975087"))
+owner_id = int(getenv("owner_id", "5408726356"))
 the_cegers = list(
     map(
         int,
