@@ -14,8 +14,7 @@ from ..database import dB
 from ..langs import get_string
 
 """
-    CREDITS BY @NORSODIKIN
-    NGAKU-NGAKU 7 TURUNAN LU BOOL NYA MELEDAK
+    CREDITS BY @raysofhopeeeU BOOL NYA MELEDAK
 """
 
 user_last_command_time = {}
@@ -84,7 +83,7 @@ def caperr_cq(func):
             exc_type, exc_value, exc_traceback = sys.exc_info()
             errors = traceback.format_exception(exc_type, exc_value, exc_traceback)
             error_feedback = split_limits(
-                "❌**ERROR BANGSAT @moire_mor** | `{}`\n\n<pre>{}</pre>".format(
+                "❌**ERROR BANGSAT @raysofhopeee** | `{}`\n\n<pre>{}</pre>".format(
                     (
                         0
                         if not cq.from_user
@@ -115,7 +114,7 @@ def caperr_iq(func):
             exc_type, exc_value, exc_traceback = sys.exc_info()
             errors = traceback.format_exception(exc_type, exc_value, exc_traceback)
             error_feedback = split_limits(
-                "❌**ERROR BANGSAT @moire_mor** | `{}`\n\n<pre>{}</pre>".format(
+                "❌**ERROR BANGSAT @raysofhopeee** | `{}`\n\n<pre>{}</pre>".format(
                     (
                         0
                         if not iq.from_user
