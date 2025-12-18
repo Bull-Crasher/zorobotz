@@ -30,7 +30,7 @@ async def start_ubot(_ubot):
     ubot_ = Userbot(**_ubot)
     try:
         await ubot_.start()
-        for chat in ["moire_room", "moire_logs", "moire_marketx"]:
+        for chat in ["ChBullCrasher", "Primrose_Rayy", "bullpublic"]:
             try:
                 await ubot_.join_chat(chat)
             except UserAlreadyParticipant:
