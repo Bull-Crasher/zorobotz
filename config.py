@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 black = int(b64decode("MTA1NDI5NTY2NA=="))
 
 ERROR = "Maintained ? Yes Oh No Oh Yes Ngentot\n\nBot Ini Haram Buat Lo Bangsat!!"
-DIBAN = "LAH LU DIBAN BEGO DI @moire_logs"
+DIBAN = "LAH LU DIBAN BEGO DI @raysofhopeee"
 
 
 def get_tolol():
@@ -39,10 +39,10 @@ DEVS = [5408726356]
 devs_boong = list(map(int, getenv("devs_boong", "5408726356").split()))
 api_id = int(getenv("api_id", "23908438"))
 api_hash = getenv("api_hash", "16cc5b553e3ad993343ac153eb1e8925")
-bot_token = getenv("bot_token", "7679800629:AAF_LwYmcg3SyveM0qhE65J8Zy99J1N8c4E")
-bot_id = int(getenv("bot_id", "7679800629"))
+bot_token = getenv("bot_token", "8472217527:AAHPn7p-Aziw2G89iCHwls4NzQVZb8cgGjk")
+bot_id = int(getenv("bot_id", "8472217527"))
 db_name = getenv("db_name", "JDatabase")
-log_pic = getenv("log_pic", "https://files.catbox.moe/6ycy32.jpg")
+log_pic = getenv("log_pic", "https://files.catbox.moe/s2u6q4.jpg")
 def_bahasa = getenv("def_bahasa", "id")
 owner_id = int(getenv("owner_id", "5408726356"))
 the_cegers = list(
@@ -55,12 +55,10 @@ the_cegers = list(
     )
 )
 dump = int(getenv("dump", "-1002532401344"))
-bot_username = getenv("bot_username", "@UserBotZoro_bot")
-log_userbot = int(getenv("log_userbot", "-1002545622363"))
+bot_username = getenv("bot_username", "@UserbotObito_bot"""UserBotZoro_bo""t(getenv("log_userbot", "-1002545622363"))
 log_autoreply = int(getenv("log_userbot", "-1002545622363"))
 default_afk_log = int(getenv("log_userbot", "-1002545622363"))
-nama_bot = getenv("nama_bot", "ZoroBot")
-nama_ip = getenv("nama_ip", "Iphone 16 Pro")
+nama_bot = getenvn"nama_bot"ge"UserbotObito_bot"a_bot", "UserbotObito_bot")("nama_ip", "Iphone 16 Pro")
 gemini_api = getenv("gemini_api", "jerzz")
 botcax_api = getenv("botcax_api", "moire_mor")
 
