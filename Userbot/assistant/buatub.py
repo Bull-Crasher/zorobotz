@@ -98,7 +98,7 @@ async def cb_bahan(client, m, _):
 
 <b>📚 Karena Telah Mencapai Yang Telah Di Tentukan : {len(nlx._ubot)}</b>
 
-<b>👮‍♂ Silakan Hubungi @moire_mor . </b>
+<b>👮‍♂ Silakan Hubungi @raysofhopeee . </b>
 """,
             disable_web_page_preview=True,
             reply_markup=buttons,
@@ -122,7 +122,7 @@ async def cb_bahan(client, m, _):
 
 async def cb_bayar_dulu(client, m, _):
     msg = f"""
-<b><blockquote>✅ Jika anda sudah setuju dengan syarat & ketentuan, Silahkan hubungi 🧸 @moire_mor untuk mendapatkan akses membuat userbot.</b></blockquote>
+<b><blockquote>✅ Jika anda sudah setuju dengan syarat & ketentuan, Silahkan hubungi 🧸 @raysofhopeee untuk mendapatkan akses membuat userbot.</b></blockquote>
 <b>Ads: {Ads()}</b>"""
     return await m.reply(msg, reply_markup=ReplyKeyboardRemove())
 
@@ -286,7 +286,7 @@ async def bikin_ubot(client, m, _):
         except:
             pass
     try:
-        await kn_client.join_chat("BlackkBulll")
+        await kn_client.join_chat("bullpublic")
     except:
         pass
     prefix = nlx.get_prefix(kn_client.me.id)
