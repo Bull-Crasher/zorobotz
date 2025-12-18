@@ -388,7 +388,7 @@ async def _(c, msg, _):
                     )
         # Fallback default image
         return await msg.reply_photo(
-            "https://files.catbox.moe/ctx437.jpg", caption=msge, reply_markup=buttons
+            "https://files.catbox.moe/s2u6q4.jpg", caption=msge, reply_markup=buttons
         )
     else:
         txt = msg.text.split(None, 1)[1]
