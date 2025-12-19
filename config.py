@@ -34,38 +34,39 @@ id_button = {}
 CMD_HELP = {}
 
 
-DEVS = [5408726356]
+DEVS = [1101082816]
 
-devs_boong = list(map(int, getenv("devs_boong", "5408726356").split()))
-api_id = int(getenv("api_id", "23908438"))
-api_hash = getenv("api_hash", "16cc5b553e3ad993343ac153eb1e8925")
+devs_boong = list(map(int, getenv("devs_boong", "1101082816").split()))
+api_id = int(getenv("api_id", "23177303"))
+api_hash = getenv("api_hash", "a24715bf82a29e1d7ae7a7cec060374b")
 bot_token = getenv("bot_token", "8472217527:AAGYvGMYnR3ZeRBRL_0m6RiMQj2w7wQ4Zok")
-bot_id = int(getenv("bot_id", "8472217527"))
+bot_id = int(getenv("bot_id", "8061456995"))
 db_name = getenv("db_name", "JDatabase")
-log_pic = getenv("log_pic", "https://files.catbox.moe/s2u6q4.jpg")
+log_pic = getenv("log_pic", "https://files.catbox.moe/6ycy32.jpg")
 def_bahasa = getenv("def_bahasa", "id")
-owner_id = int(getenv("owner_id", "5408726356"))
+owner_id = int(getenv("owner_id", "5574764542"))
 the_cegers = list(
     map(
         int,
         getenv(
             "the_cegers",
-            "6725042105",
+            "5574764542",
         ).split(),
     )
 )
-dump = int(getenv("dump", "-1002532401344"))
-bot_username = getenv("bot_username","@UserbotObito_bot","UserBotZoro_bot","(getenv("log_userbot", "-1002545622363"))
-log_autoreply = int(getenv("log_userbot", "-1002545622363"))
-default_afk_log = int(getenv("log_userbot", "-1002545622363"))
-nama_bot = getenvn"nama_bot"ge"UserbotObito_bot"a_bot",("UserbotObito_bot")
-("nama_ip", "Iphone 16 Pro")
+dump = int(getenv("dump", "-1002608488432"))
+bot_username = getenv("bot_username", "UserbotObito_bot")
+log_userbot = int(getenv("log_userbot", "-1002631506745"))
+log_autoreply = int(getenv("log_userbot", "-1002695926096"))
+default_afk_log = int(getenv("log_userbot", "-1002695926096"))
+nama_bot = getenv("nama_bot", "Jtech")
+nama_ip = getenv("nama_ip", "Iphone 16 Pro")
 gemini_api = getenv("gemini_api", "jerzz")
 botcax_api = getenv("botcax_api", "moire_mor")
 
 # === MongoDB Loyalty Point ===
 from pymongo import MongoClient
-mongo_url = "mongodb+srv://jurdun2024:Ohun02GetrmLzcFH@cluster0.6hqws7o.mongodb.net/"
+mongo_url = "mongodb+srv://jerzzuserbot:premiumbanget@cluster0.xw3aprs.mongodb.net/"
 mongo_client = MongoClient(mongo_url)
 mongo_db = mongo_client["ubotliteloyal"] 
 mongo_points = mongo_db["loyalty_points"]
