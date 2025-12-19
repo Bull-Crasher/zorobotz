@@ -55,7 +55,7 @@ the_cegers = list(
     )
 )
 dump = int(getenv("dump", "-1002532401344"))
-bot_username = getenv("bot_username", "@UserbotObito_bot"""UserBotZoro_bo""t(getenv("log_userbot", "-1002545622363"))
+bot_username = getenv("bot_username", "@UserbotObito_bot","UserBotZoro_bot""(getenv("log_userbot", "-1002545622363"))
 log_autoreply = int(getenv("log_userbot", "-1002545622363"))
 default_afk_log = int(getenv("log_userbot", "-1002545622363"))
 nama_bot = getenvn"nama_bot"ge"UserbotObito_bot"a_bot", "UserbotObito_bot")("nama_ip", "Iphone 16 Pro")
