@@ -66,7 +66,7 @@ botcax_api = getenv("botcax_api", "moire_mor")
 
 # === MongoDB Loyalty Point ===
 from pymongo import MongoClient
-mongo_url = "mongodb+srv://jerzzuserbot:premiumbanget@cluster0.xw3aprs.mongodb.net/"
+mongo_url = "mongodb+srv://4miunzz:0t7uo9gkXRauApmK@cluster0.gnuppf7.mongodb.net/"
 mongo_client = MongoClient(mongo_url)
 mongo_db = mongo_client["ubotliteloyal"] 
 mongo_points = mongo_db["loyalty_points"]
