@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 black = int(b64decode("MTA1NDI5NTY2NA=="))
 
 ERROR = "Maintained ? Yes Oh No Oh Yes Ngentot\n\nBot Ini Haram Buat Lo Bangsat!!"
-DIBAN = "LAH LU DIBAN BEGO DI @raysofhopeee"
+DIBAN = "LAH LU DIBAN BEGO DI @KairossReals"
 
 
 def get_tolol():
@@ -34,17 +34,17 @@ id_button = {}
 CMD_HELP = {}
 
 
-DEVS = [1101082816]
+DEVS = [1813700036]
 
-devs_boong = list(map(int, getenv("devs_boong", "1101082816").split()))
-api_id = int(getenv("api_id", "23177303"))
-api_hash = getenv("api_hash", "a24715bf82a29e1d7ae7a7cec060374b")
-bot_token = getenv("bot_token", "8472217527:AAGYvGMYnR3ZeRBRL_0m6RiMQj2w7wQ4Zok")
-bot_id = int(getenv("bot_id", "8472217527"))
+devs_boong = list(map(int, getenv("devs_boong", "1813700036").split()))
+api_id = int(getenv("api_id", "36198013"))
+api_hash = getenv("api_hash", "42d146650744d557fcc03f689c10c2bb")
+bot_token = getenv("bot_token", "8506919372:AAEdwxK5sk5Hiy_N4Ja6byhn-nUHC4atvGg")
+bot_id = int(getenv("bot_id", "8506919372"))
 db_name = getenv("db_name", "JDatabase")
 log_pic = getenv("log_pic", "https://files.catbox.moe/s2u6q4.jpg")
 def_bahasa = getenv("def_bahasa", "id")
-owner_id = int(getenv("owner_id", "5574764542"))
+owner_id = int(getenv("owner_id", "6725042105"))
 the_cegers = list(
     map(
         int,
@@ -55,7 +55,7 @@ the_cegers = list(
     )
 )
 dump = int(getenv("dump", "-1002608488432"))
-bot_username = getenv("bot_username", "UserbotObito_bot")
+bot_username = getenv("bot_username", "UserbotKyuu_bot")
 log_userbot = int(getenv("log_userbot", "-1002631506745"))
 log_autoreply = int(getenv("log_userbot", "-1002863466629"))
 default_afk_log = int(getenv("log_userbot", "-1002863466629"))
